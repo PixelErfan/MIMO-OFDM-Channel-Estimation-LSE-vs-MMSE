@@ -25,15 +25,16 @@ pip install numpy matplotlib jupyter
 ```
 
 ## 🚀 Usage
-1. **Clone the repo**
+1. **Clone the repository**  
    ```bash
-git clone https://github.com/your-username/mimo-ofdm-channel-estimation.git
-cd mimo-ofdm-channel-estimation
-```
-2. **Launch** the notebook:
+   git clone https://github.com/PixelErfan/mimo-ofdm-channel-estimation.git
+   cd mimo-ofdm-channel-estimation
+   ```
+
+2. **Launch the Jupyter notebook**  
    ```bash
-jupyter notebook mimo_ofdm_estimation.ipynb
-```
+   jupyter notebook mimo_ofdm_estimation.ipynb
+   ```
 3. **Run** all cells in order. The notebook is organized as follows:
    1. System parameters (FFT size, CP, antennas, taps, noise, pilots, QPSK, trials)
    2. Channel estimation routines (LSE/MMSE)
